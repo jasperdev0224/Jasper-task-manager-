@@ -1,0 +1,107 @@
+ body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2ff;
+  color: #111827;
+ }
+
+#root {
+  min-height: 100vh;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+ h1{
+  text-align: center;
+  color: #0f766e;
+  margin-bottom: 25px;
+ }
+
+ input{
+  padding: 8px;
+  border: 2px solid #14b8a6;
+  border-radius: 8px;
+outline: none;
+ }
+
+ button{
+  padding: 11px 15px;
+  margin: 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #0f766e;
+  color: white;
+  font-weight: bold;
+ }
+
+ button :hover {
+  background-color: #115e59;
+ }
+
+ .app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(79, 70, 299, 0.15);
+ }
+
+ .task-text{
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 0 10px;
+  padding: 12px 15px;
+  background: #f8f9ff;
+  border-radius: 10px;
+ }
+
+ .task-card{
+background: #ffffff;
+padding: 15px;
+margin-top: 15px;
+border-radius: 12px;
+border: 1px solid #e5e7eb;
+ }
+ 
+ .task-card button{
+  font-size: 14px;
+  padding: 8px 12px;
+ }
+
+ .task-card p{
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 15px;
+ }
+
+ .complete-btn {
+  background: #2f80ed;
+  color: white;
+border: none;
+padding: 10px 16px;
+border-radius: 8px;
+cursor: pointer;
+margin-right: 8px;
+ }
+
+ .complete-btn:hover {
+  background: #1d6fd5;
+ }
+
+ .delete-btn {
+  background: #e53935 !important;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+
+ }
+
+ .delete-btn:hover{
+  background: #c62828 !important;
+ }
