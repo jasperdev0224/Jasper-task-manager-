@@ -30,12 +30,6 @@ While building this project, I practiced:
 - Passing functions between components
 - Basic CSS styling
 
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_URL
 
 Author
 Jasper
